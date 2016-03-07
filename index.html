@@ -17,27 +17,30 @@
 
     <!-- Include the compiled Ratchet JS -->
     <script src="./js/ratchet.js"></script>
+    <script src="./js/ratchet.min.js"></script>
   </head>
   <body>
-
+<div class="content">
     <header class="bar bar-nav fond">
       <img id="logo" src="./img/logo.png" alt="" />
       <a href="#menu-haut"><span class="icon icon icon-bars pull-right"></span></a>
     </header>
-<div class="content">
-<div id="menu-haut"class="popover">
+
+<div id="menu-haut" class="popover">
   <header class="bar bar-nav">
     <h1 class="title">MENU</h1>
   </header>
-  <ul class="table-view">
-    <li class="table-view-cell">Accueil</li>
-    <li class="table-view-cell">À propos</li>
-    <li class="table-view-cell">Partenaires</li>
-    <li class="table-view-cell">Boutique</li>
-    <li class="table-view-cell">Contact</li>
-    <li class="table-view-cell">Aide</li>
-  </ul>
-</div><!--end popover-->
+  <nav class="table-view">
+    <a href="#"><li class="table-view-cell">Accueil</li></a>
+    <a href="#"><li class="table-view-cell">À propos</li></a>
+    <a href="#"><li class="table-view-cell">Partenaires</li></a>
+    <a href="#"><li class="table-view-cell">Boutique</li></a>
+    <a href="#"><li class="table-view-cell">Contact</li></a>
+    <a href="#"><li class="table-view-cell">Aide</li></a>
+  </nav>
+</div><!--end menu haut-->
+
+<div id="menu-bas" class="popover">
 
 <nav class="bar bar-tab">
   <a class="tab-item active" href="#">
@@ -57,7 +60,7 @@
     <span class="tab-label"></span>
   </a>
 </nav>
+</div><!--end menu-bas-->
 </div>
-  <script src="./js/ratchet.js"></script>
   </body>
 </html>

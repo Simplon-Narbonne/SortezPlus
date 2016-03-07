@@ -21,6 +21,11 @@
 	  margin: 10px;
 		line-height: 40px;
 }
+.title{
+	color: #fff;
+	border-radius: 6px 6px 0 0;
+	background-color: #a90064;
+}
 	nav a {
 		display: block;
     height: 40px;
