@@ -10,6 +10,7 @@
     <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:800" rel="stylesheet" type="text/css" >
 
     <!-- Include the compiled Ratchet CSS -->
     <link rel="stylesheet" href="./css/ratchet.css">
@@ -21,7 +22,8 @@
   </head>
   <body>
 <div class="content">
-    <header class="bar bar-nav fond">
+
+    <header id="header" class="bar bar-nav fond">
       <img id="logo" src="./img/logo.png" alt="" />
       <a href="#menu-haut"><span class="icon icon icon-bars pull-right"></span></a>
     </header>
@@ -39,10 +41,12 @@
     <a href="#"><li class="table-view-cell">Aide</li></a>
   </nav>
 </div><!--end menu haut-->
-
-<div id="menu-bas" class="popover">
-
-<nav class="bar bar-tab">
+<div id="accueil">
+      <a class="btn" href="bonplan.html" data-transition="slide-in">Bons plans</a>
+      <a class="btn" href="presdici.html" data-transition="slide-in">Près d'ici</a>
+      <a class="btn" href="rechercher.html" data-transition="slide-in">Rechercher</a>
+</div>
+<nav id="menu-bas" class="bar bar-tab ">
   <a class="tab-item active" href="#">
     <span class="icon"><img src="./img/search.png" alt="" width="30px"></span>
     <span class="tab-label"> </span>
@@ -60,7 +64,10 @@
     <span class="tab-label"></span>
   </a>
 </nav>
-</div><!--end menu-bas-->
+
 </div>
+<footer>
+<a href="#menu-bas"><span class="icon icon-up "></span></a>
+</footer>
   </body>
 </html>
