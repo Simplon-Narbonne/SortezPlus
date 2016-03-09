@@ -134,6 +134,7 @@ margin-top: 5px;
 #header {
 		height: 65px;
 	border-bottom: 10px solid #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 #logo {
@@ -187,15 +188,24 @@ background-size: cover;
 
 /*=================================== BONS PLANS =======================*/
 
+.table-view{
+  margin-top: 15%;
+}
+
+.badge{
+  color: #C40A71;
+}
+
+.table-view-cell{
+  color: #C40A71;
+
+}
 .card{
   margin-top: 12%;
   background-color: #C40A71;
 }
 
 
-#rechercher{
-	margin-top: 70px;
-}
 footer {
 	position: fixed;
 	bottom: 0;
