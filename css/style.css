@@ -184,6 +184,15 @@ background-image: url(../img/sun.png);
 background-repeat: no-repeat;
 background-size: cover;
 }
+
+/*=================================== BONS PLANS =======================*/
+
+.card{
+  margin-top: 12%;
+  background-color: #C40A71;
+}
+
+
 #rechercher{
 	margin-top: 70px;
 }
